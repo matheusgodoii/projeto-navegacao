@@ -3,19 +3,19 @@ import { View, Text, FlatList, Button, StyleSheet, Image } from 'react-native';
 const livros = [
   {
     id: '1',
-    titulo: 'O Pai do Laravel',
+    titulo: 'Livro 1',
     autor: 'Techuk, Pedro',
     imagem: require('./assets/livro_laravel.png'),
   },
   {
     id: '2',
-    titulo: 'Golpe do Tigre aos Chineses',
+    titulo: 'Livro 2',
     autor: 'Basso, João',
     imagem: require('./assets/livro_tigre.png'),
   },
   {
     id: '3',
-    titulo: 'Dev do Sítio',
+    titulo: 'Livro 3',
     autor: 'Godoi, Matheus',
     imagem: require('./assets/livro_sitio.png'),
   },
